@@ -55,13 +55,14 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: red
+  color: white
 } 
 
 p {
   margin: 10px 0px;
   text-align: justify;   
   float: left;         /* tekst links en rechts uitvullen */
+  color: white;
 }
 
 img {
@@ -69,7 +70,7 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: red;
   text-decoration: none;
 }
 
@@ -100,7 +101,7 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -121,17 +122,28 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
+.item-plaatje-logo {
   float: left;
   width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-}
+  margin-left: 250px;
+  }
 
 .item-tekst {
   float: right;
   width: 450px;
-
 }
+
+.plaatje-coureurs {
+  width: 700px;
+  height: 400px;
+  }
+
+.vlaggen-tabel {
+  height: 35px;
+  padding-right: 15px;
+}
+
 
 /************************* SUBPAGINA *************************/
 
@@ -139,18 +151,41 @@ nav li a.active {
 
 /* verzin deze zelf... */
 
-#achtergrondweb {
-  background-image: url('afbeeldingen/pedro-acosta-moto3.jpeg');
+#achtergrondwebgeschiedenis {
+  background-image: url(afbeeldingen/RoX.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+
+#achtergrondwebcoureurs {
+  background-image: url(afbeeldingen/red\ smoke\ \(2\).jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height:1200px;
 }
 
-#achtergrondweb2 {
-  background-image: url('afbeeldingen/aleix-espargaro-aprilia-racing.jpg');
+#achtergrondwebinformatie {
+  background-image: url(afbeeldingen/coolrood.webp);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height:1200px;
+  height: 1200px;
 }
+
+#achtergrondwebcircuits {
+  background-image: url(afbeeldingen/circuitmooi5.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1700px;
+}
+
+table, td, tr {
+border: 4px solid black;
+border-collapse: collapse;
+
+}
+
