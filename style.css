@@ -24,7 +24,7 @@
 
 html, body {                      /* geldt voor html en body */
   background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  color: white;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -55,12 +55,13 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: skyblue;
+  color: red
 } 
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify;   
+  float: left;         /* tekst links en rechts uitvullen */
 }
 
 img {
@@ -110,7 +111,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: red;
 }
 
 
@@ -129,6 +130,7 @@ nav li a.active {
 .item-tekst {
   float: right;
   width: 450px;
+
 }
 
 /************************* SUBPAGINA *************************/
@@ -136,3 +138,19 @@ nav li a.active {
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
+
+#achtergrondweb {
+  background-image: url('afbeeldingen/pedro-acosta-moto3.jpeg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1200px;
+}
+
+#achtergrondweb2 {
+  background-image: url('afbeeldingen/aleix-espargaro-aprilia-racing.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1200px;
+}
