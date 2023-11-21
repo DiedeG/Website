@@ -87,6 +87,16 @@ img {
   color: rgb(241, 191, 0);
 }
 
+.Frankrijk {
+  color: rgb(237, 41, 57);
+}
+
+.Italië {
+  color: rgb(0, 140, 69);
+}
+
+
+
 
 
 
@@ -227,7 +237,7 @@ border-collapse: collapse;
   padding-left: 8px;
   white-space: nowrap;
   backdrop-filter: blur(5px);
-  height: 800px;
+  height: 480px;
   width: 700px; 
   
 }
