@@ -73,82 +73,102 @@ img {
 
 .Argentinië {
   color: lightskyblue;
+  font-size: 150%;
 }
 
 .Portugal {
   color: green;
+  font-size: 150%;
 }
 
 .Amerika {
   color: rgb(179, 25, 66);
+  font-size: 150%;
 }
 
 .Spanje {
   color: rgb(241, 191, 0);
+  font-size: 150%;
 }
 
 .Frankrijk {
   color: rgb(237, 41, 57);
+  font-size: 150%;
 }
 
 .Italië {
   color: rgb(0, 140, 69);
+  font-size: 150%;
 }
 
 .Duitsland {
   color: black;
+  font-size: 150%;
 }
 
 .Nederland {
-  color: white
+  color: white;
+  font-size: 150%;
 }
 
 .Kazachstan {
-  color: rgb(0, 171, 194)
+  color: rgb(0, 171, 194);
+  font-size: 150%;
 }
 
 .Groot-Brittanië {
   color: rgb(200, 16, 46);
+  font-size: 150%;
 }
 
 .Oostenrijk {
-  color: whitesmoke
+  color: whitesmoke;
+  font-size: 150%;
 }
 
 .Catalunya {
   color: rgb(241, 191, 0);
+  font-size: 150%;
 }
 
 .San-Marino {
   color: rgb(89, 181, 229);
+  font-size: 150%;
 }
 
 .India {
   color: rgb(242, 120, 54);
+  font-size: 150%;
 }
 
 .Japan {
   color: white;
+  font-size: 150%;
 }
 
 .Indonesië {
   color: rgb(255, 0, 0);
+  font-size: 150%;
 }
 
 .Australië {
   color: rgb(0, 0, 139);
+  font-size: 150%;
 }
 
 .Thailand {
   color: rgb(165, 25, 49);
+  font-size: 150%;
 }
 
 .Maleisie {
   color: rgb(255, 209, 0);
+  font-size: 150%;
 }
 
 .Qatar {
-  color: white
+  color: white;
+  font-size: 150%;
 }
 
 
@@ -224,8 +244,10 @@ nav li a.active {
   }
 
 .item-tekst {
-  float: right;
+  
   width: 450px;
+  text-align: left;
+  
 }
 
 .plaatje-coureurs {
@@ -236,6 +258,13 @@ nav li a.active {
 .vlaggen-tabel {
   height: 35px;
   padding-right: 15px;
+  float: left;
+  
+}
+
+.GROOTE-TEKST {
+  font-size: 150%;
+  
 }
 
 
@@ -254,7 +283,7 @@ nav li a.active {
 }
 
 #achtergrondwebcoureurs {
-  background-image: url(afbeeldingen/background\ coureurs.jpeg);
+  background-image: url(afbeeldingen/achterj98g0jk.jpeg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -283,7 +312,7 @@ border-collapse: collapse;
 }
 
 
-.blurrr {
+.blur-geschiedenis {
   background-color: rgba(255, 255, 255, 0.555);
   color: black;
   border: 2px solid red;
@@ -297,9 +326,9 @@ border-collapse: collapse;
   
 }
 
-.blur {
-  background-color: black);
-  color: white;
+.blur-coureurs {
+  background-color: rgba(255, 255, 255, 0.555);
+  color: red;
   border: 2px solid red;
   border-radius: 7px;
   padding-right: 8px;
@@ -308,5 +337,7 @@ border-collapse: collapse;
   backdrop-filter: blur(5px);
   height: 190px;
   width: 700px; 
+  
 }
+
 
